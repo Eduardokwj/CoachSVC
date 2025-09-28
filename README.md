@@ -36,10 +36,10 @@ pip install -r requirements.txt
 
 ▶️ Execução local
 
-**DEVE ESTAR NA MESMA PASTA MÃE QUE O GYMHUB**
-**EXEMPLO**
-alguma-pasta/
- ├─ gymhub-api/
+**DEVE ESTAR NA MESMA PASTA MÃE QUE O GYMHUB**  
+**EXEMPLO**  
+alguma-pasta/  
+ ├─ gymhub-api/  
  └─ coach-svc/
 
 ```bash
