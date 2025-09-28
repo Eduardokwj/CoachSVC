@@ -21,6 +21,7 @@ API secundária do MVP **GymHub**, responsável pelas regras de negócio:
 ---
 
 ## 🔧 Instalação local
+
 ```bash
 python -m venv .venv
 
