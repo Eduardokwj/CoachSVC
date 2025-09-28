@@ -3,7 +3,7 @@ from fastapi import FastAPI, Form
 from fastapi.responses import RedirectResponse
 
 app = FastAPI(
-    title="coach-svc",
+    title="Coach-SVC",
     description="Serviço de coaching: 1RM, volume e plano semanal.",
     version="1.0.0",
 )
@@ -12,9 +12,18 @@ app = FastAPI(
 def root():
     return RedirectResponse(url="/docs")
 
-@app.get("/health")
-def health():
-    return {"ok": True}
+
+@app.get("/tips")
+def tips():
+    return {
+        "tips": [
+            "Sempre aqueça antes de treinar.",
+            "Priorize a execução correta ao invés de apenas a carga.",
+            "Respeite o descanso entre séries.",
+            "Hidrate-se durante o treino.",
+            "Anote suas cargas para acompanhar evolução."
+        ]
+    }
 
 @app.post("/one_rm")
 def one_rm(
