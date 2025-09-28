@@ -1,7 +1,7 @@
 
 ---
 
-# 📄 `Coach-SVC`
+# 📄 `CoachSVC`
 ```markdown
 # coach-svc
 
