@@ -1,7 +1,7 @@
 
 ---
 
-# 📄 `coach-svc/README.md`
+# 📄 `Coach-SVC`
 ```markdown
 # coach-svc
 
