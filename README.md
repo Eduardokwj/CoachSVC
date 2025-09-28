@@ -9,7 +9,7 @@ API secundária do MVP **GymHub**, responsável pelas regras de negócio:
 - Cálculo de **1RM**  
 - Cálculo de **volume de treino**  
 - Geração de **plano semanal**  
-- CRUD de **templates de treino** (para cobrir os verbos REST)
+
 
 ---
 
